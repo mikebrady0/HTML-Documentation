@@ -1,0 +1,78 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+* {
+  background-color : #e6efff;
+  font-family: 'sans-serif', arial;
+  margin-right: 20px;
+}
+
+h1 {
+  display: flex;
+  padding: 5px 5px 0 0;
+  margin-left: 25%;
+
+
+}
+
+.main-section {
+  padding: 5px 5px 5px 5px;
+  margin: 10px 5;
+  width: 75%;
+  align-items: center;
+  margin-left: 25%;
+}
+
+p {
+  font-size: 16px;
+  color: #343536; 
+
+}
+
+nav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 20%;
+  height: 100%;
+  min-width: 20%
+}
+
+nav > ul {
+  color: #343536;
+  list-style: none;
+  position: relative;
+
+  
+
+}
+
+a {
+  display: block;
+  padding: 50px 5px;
+  color: #343536;
+  text-decoration: none;
+  cursor: pointer;
+  width: 100%;
+  font-family:  Arial;
+  font-size: 16px;
+  position: relative;
+  
+
+}
+  
+.end-desc {
+  margin-left: 25%;
+  text-align: center;
+  color: #343536;
+}
+
+.navhead {
+  position: relative;
+  margin: 20 20;
+  font-weight: bold;
+  font-size: 20px
+}
